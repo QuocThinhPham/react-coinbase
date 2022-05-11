@@ -1,0 +1,38 @@
+export const theme = {
+    font: {
+        primary: 'Poppins',
+        secondary: 'Open Sans',
+        normal: 400,
+        bold: 700,
+    },
+    text: {
+        xs: '0.75em',
+        sm: '0.875em',
+        base: '1em',
+        md: '1.125em',
+        lg: '1.25em',
+        xl: '1.5em',
+        '1.75xl': '1.75em',
+        '2xl': '2em',
+        '5/2xl': '2.5em',
+        '3xl': '3em',
+        '4xl': '4em',
+        white: '#fff',
+        gray: '#a5a5a5',
+        black: '#333',
+    },
+    palettes: {
+        pink: '#FD749B',
+        blue: '#281AC8',
+        black: '#151515',
+        gray: '#bbb',
+        white: '#fff',
+        gradient: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)',
+        loading: '#3cefff',
+    },
+    breakpoints: {
+        sm: '425px',
+        md: '768px',
+        lg: '1200px',
+    },
+};

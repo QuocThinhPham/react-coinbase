@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;700&display=swap');
+
+::-webkit-scrollbar {
+  @apply w-[3px];
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#E5E5E5];
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-pink-500;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+.custom-scrollbar {
+  scrollbar-color: rgb(236, 72, 153) #e5e5e5;
+  scrollbar-width: thin;
+}
+body {
+  @apply font-primary;
+}
+
+.menu-links {
+  @apply inline-block w-max text-sm font-bold text-[#333] transition-all before:content-[''] before:absolute before:bottom-0 before:right-0 before:block before:h-[3px] before:rounded-sm before:bg-pink-500 before:transition-all before:w-0 group-hover:before:w-full group-hover:before:left-0;
+}
+.menu-links.active {
+  @apply before:w-full before:left-0;
+}
+
+.zoom-enter .content {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.zoom-enter-active .content {
+  opacity: 1;
+  transform: scale(1);
+}
+.zoom-exit .content {
+  opacity: 1;
+}
+.zoom-exit-active .content {
+  opacity: 0;
+  transform: scale(0);
+}
