@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_coinbase=self.webpackChunkreact_coinbase||[]).push([[490],{490:function(e,c,n){n.r(c);var t=n(739),i=(n(791),n(184));c.default=function(){return(0,i.jsx)(t.ee,{title:"Welcome back!",desc:"Kindly fill in your login details to proceed"})}}}]);
+//# sourceMappingURL=490.9074589c.chunk.js.map
